@@ -193,7 +193,7 @@ ul:last-child li:last-child{
 
 /*Responsividade*/
 
-@media screen and (min-width: 400px) and (max-width: 800px){
+@media (min-width: 400px) and (max-width: 800px){
 	.linha{max-width: 100%; margin: 0px;}
 	.col1{width: 8.33333333%;}
 	.col2{width: 16.666666667%;}
