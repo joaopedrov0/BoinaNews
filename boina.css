@@ -239,6 +239,10 @@ ul:last-child li:last-child{
 		max-width: 100vw;
 		font-size: 20px;
 	}
+	/*Backgrounds mobile*/
+	#home, #materias, #editorial{
+		background-image: none;
+	}
 	.main{
 		margin-top: 90px;
 	}
