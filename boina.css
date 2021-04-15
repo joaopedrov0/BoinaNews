@@ -194,6 +194,9 @@ img{
 	height: auto;
 	margin: auto auto;
 }
+.iconM{
+	float: right;
+}
 
 ul:last-child li:last-child{
 	margin-bottom: 15px;
