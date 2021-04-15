@@ -237,7 +237,7 @@ ul:last-child li:last-child{
 	}
 
 	h1{
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	h2{
 		font-size: 1.6em;
@@ -246,19 +246,19 @@ ul:last-child li:last-child{
 		font-size: 1.4em;
 	}
 	h4{
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 	h5{
 		font-size: 1.2em;
 	}
 	h6{
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 	p{
-		font-size: 1.1em;
+		font-size: 1.0em;
 	}
 	li{
-		font-size: 1.1em;
+		font-size: 1.0em;
 	}
 	p{
 		max-width: 95%;
@@ -270,7 +270,7 @@ ul:last-child li:last-child{
 		align-items: center;
 	}
 	.menuNav a{
-		font-size: 24px;
+		font-size: 20px;
 		margin-bottom: 0;
 	}
 	li.menuNav{
