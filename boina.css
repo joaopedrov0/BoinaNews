@@ -162,7 +162,7 @@ main{
 p{
 	text-indent: 20px;
 	font-size: 18px;
-	margin: 50px 0 50px 0;
+	margin: 25px 0 25px 0;
 }
 ul{
 	margin: 0;
@@ -298,7 +298,7 @@ ul:last-child li:last-child{
 	}
 	p{
 		max-width: 95%;
-		margin-right: 0;
+		margin: 25px 0 25px 0;
 	}
 	article{
 		display: flex;
