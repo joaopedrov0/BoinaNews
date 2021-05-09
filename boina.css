@@ -10,15 +10,11 @@ body{
 /*Backgrounds*/
 #home{
 	position: cover;
-	background-image: url('contact-us-flatlay.jpg');
+	background-color: #03A9F4;
 }
 #materias{
 	background-image: url('books-2596809_1920.jpg');
 	background-size: cover;
-}
-#editorial{
-	/*background-image: url('https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_960_720.jpg');*/
-	/*background-image: url('coder-1869306_1920.jpg');*/
 }
 
 
@@ -82,7 +78,7 @@ p, h1, h2, h3, h4, h5, h6, li, li.menuNav a{
 
 /*header e nav*/
 .header{
-    background-image: linear-gradient(#56B5F0, 70%, transparent);
+    background-image: linear-gradient(#2196F3, 70%, transparent);
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -189,7 +185,7 @@ main a:hover{
 /*article*/
 .article{
 	/*background-color: #56B5F0;*/
-	background-image: linear-gradient(to top, #56B5F0, 90%, transparent);
+	background-image: linear-gradient(to top, #2196F3, 90%, transparent);
 	padding-top: 100px;
 	max-width: 100%;
 }
@@ -209,12 +205,13 @@ article a:hover{
 }
 /*Rodapé*/
 .footer{
-	background-color: #31a7f0;
+	background-color: #1976D2;
 	max-width: 100%;
 }
 footer{
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 img{
 	max-width: 100%;
@@ -240,6 +237,47 @@ h1{
 }
 h2{
 	font-size: 1.2em;
+}
+
+#home .section{
+	margin-top: 200px;
+}
+
+/*Cards*/
+  
+  
+.card{
+	font-family: arial, sans-serif;
+	display: flex;
+	padding: 10px;
+	max-width: 320px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 5px 5px 10px black;
+	margin: 0 0 100px 50px;
+	align-items: center;
+}
+
+.cardImg{
+	width: 120px !important;
+	height: 120px !important;
+	border-radius: 100%;
+	margin: 5px;
+	display: block;
+	transform: translatex(-50%);
+	border: 3px solid #d6d6d6;
+	align-items: center;
+}
+.cardTexto{
+	margin: 5px 5px 5px -50px;
+	max-width: 230px;
+}
+.cardNome{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.cardDesc p{
+	margin-bottom: 0;
 }
 
 
@@ -355,5 +393,31 @@ h2{
 	img{
 		max-width: 100%;
 		height: auto;
+	}
+	#videosHome{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	#videosHome .col6{
+		min-width: 320px;
+	}
+	#videosHome .col6 iframe{
+		min-width: 320px;
+		margin-bottom: 10px;
+	}
+	#home .section{
+		margin-top: 100px;
+	}
+	/*card*/
+	.cardImg{
+		max-width: 120px;
+		max-height: 120px;
+		border-radius: 100%;
+		margin: 5px;
+		display: block;
+		transform: translatex(-50%);
+		border: 3px solid #d6d6d6;
+		align-items: center;
 	}
 }
