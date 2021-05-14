@@ -281,6 +281,9 @@ h2{
 .cardDesc ul{
 	margin-top: 25px;
 }
+.cardDesc ul li a:hover{
+	text-decoration: none;
+}
 /*redes*/
 .facebook{
 	background-color: #1775f1;
