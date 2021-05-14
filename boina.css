@@ -75,7 +75,7 @@ p, h1, h2, h3, h4, h5, h6, li, li.menuNav a{
 
 /*header e nav*/
 .header{
-    background-image: linear-gradient(#2196F3, 70%, transparent);
+    background-image: linear-gradient(#007bdc, 70%, transparent);
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -182,7 +182,7 @@ main a:hover{
 /*article*/
 .article{
 	/*background-color: #56B5F0;*/
-	background-image: linear-gradient(to top, #2196F3, 90%, transparent);
+	background-image: linear-gradient(to top, #007bdc, 90%, transparent);
 	padding-top: 100px;
 	max-width: 100%;
 }
@@ -202,7 +202,7 @@ article a:hover{
 }
 /*Rodapé*/
 .footer{
-	background-color: #1976D2;
+	background-color: #0071e0;
 	max-width: 100%;
 }
 footer{
@@ -281,6 +281,7 @@ h2{
 .cardDesc ul{
 	margin-top: 25px;
 }
+
 .cardDesc ul li a:hover{
 	text-decoration: none;
 }
@@ -313,8 +314,8 @@ h2{
 	background-color: #d00000;
 	color: #ffffff;
 	font-weight: 700;
-	padding: 5px;
-	border-radius: 10px;
+	padding: 5px 10px;
+	border-radius: 7px;
 }
 
 .tiktok{
