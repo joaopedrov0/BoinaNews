@@ -241,8 +241,7 @@ h2{
 }
 
 /*Cards*/
-  
-  
+
 .card{
 	font-family: arial, sans-serif;
 	display: flex;
@@ -250,9 +249,15 @@ h2{
 	max-width: 320px;
 	border-radius: 20px;
 	border: none;
-	box-shadow: 5px 5px 10px black;
+	box-shadow: 5px 5px 10px #c1c1c1;
 	margin: 0 0 100px 50px;
 	align-items: center;
+	transition: transform 100ms ease-in-out;
+}
+
+.card:hover{
+	transform: scale(1.1);
+	transition: transform 200ms cubic-bezier(0.23, 0.13, 0.16, 1.58);
 }
 
 .cardImg{
@@ -280,12 +285,33 @@ h2{
 
 .cardDesc ul{
 	margin-top: 25px;
+	max-width: 115px;
+}
+
+.cardDesc ul li{
+	margin: 15px 0;
+	transition: transform 200ms ease-in-out;
+}
+
+.cardDesc ul li:first-child:hover{
+	transform: scale(1.0);
+}
+.cardDesc ul li:hover{
+	transform: scale(1.1);
+
+	transition: transform 200ms cubic-bezier(0.42, 0, 0.57, 1.76);
+
 }
 
 .cardDesc ul li a:hover{
 	text-decoration: none;
+	opacity: 100%;
 }
+
+
 /*redes*/
+
+
 .facebook{
 	background-color: #1775f1;
 	color: #ffffff;
