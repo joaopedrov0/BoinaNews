@@ -489,4 +489,8 @@ h2{
 		border: 3px solid #d6d6d6;
 		align-items: center;
 	}
+	.card:hover{
+	transform: scale(1.05);
+	transition: transform 200ms cubic-bezier(0.23, 0.13, 0.16, 1.58);
+	}
 }
