@@ -7,9 +7,17 @@
         <link rel="stylesheet" href="boina.css">
         <title>3 Séries e filmes que você precisa assistir durante a quarentena... - Boina News</title>
         <link rel="icon" href="icon.png">
-        <script src="boina.js"></script>
+        <link rel="stylesheet" href="menu.css">
+        
     </head>
     <body>
+        <div id="id">0</div>
+        <ul class="menu">
+            <li class="menu-item-btn"><a class="btnMenu btnMenu-close">fechar</a></li>
+            <ul id="menu-content">
+                
+            </ul>
+        </ul>
         <div class="header">
             <header>
                 <a href="index.html" class="home">
@@ -19,9 +27,9 @@
                 </a>
             </header>
             <nav>
-                <ul class="menu">
-                    <li class="menuNav"><a href="materias.html">Matérias</a></li>
-                </ul>
+                <div class="btnMenu btnMenu-open">
+                    menu
+                </div>
             </nav>
         </div>
         <div class="main">
@@ -109,17 +117,14 @@
             <div class="linha">
                 <article>
                     <div class="coluna col6">
-                        <div>
-                            <h3><a href="report-draBianca.html">Especialista afirma "Uma hora de atividades físicas vale por um comprimido de antidepressivo".</a></h3>
-                            <p>Diante do isolamento em virtude da pandemia, as crises de transtornos de ordem psicológica apresentaram aumento significativo...</p>
+                        <div id="noticia_1">
+                            
                         </div>
-                        <div>
-                            <h3><a href="report-draAlinePugliese.html">Atrofia muscular na quarentena.</a></h3>
-                            <p>A prática da atividade física, mesmo aquelas que fazíamos após muita reclamação, faz falta a todos nós. Essa rotina tem destruído cotidianos em todos...</p>
+                        <div id="noticia_2">
+                            
                         </div>
-                        <div>
-                            <h3><a href="odldm-mulheresoprimidasouprivilegiadas.html">Mulheres: Oprimidas ou Privilegiadas?</a></h3>
-                            <p>O movimento feminista afirma que as mulheres sempre foram oprimidas pelo sexo, mas o que a história...</p>
+                        <div id="noticia_3">
+                            
                         </div>
                     </div>
                     <div class="coluna col6">
@@ -138,5 +143,6 @@
                 </div>
             </div>
         </div>
+        <script src="boina.js"></script>
     </body>
 </html>

@@ -5,11 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="boina.css">
+
+        <link rel="stylesheet" href="menu.css">
+
         <title>Boina News - Home</title>
         <link rel="icon" href="icon.png">
-        <script src="boina.js"></script>
     </head>
     <body id="home">
+        <div id="id">-1</div>
+        <ul class="menu">
+            <li class="menu-item-btn"><a class="btnMenu btnMenu-close">fechar</a></li>
+            <ul id="menu-content">
+                
+            </ul>
+        </ul>
         <div class="header">
             <header>
                 <div class="logo">
@@ -17,11 +26,12 @@
                 </div>
             </header>
             <nav>
-                <ul class="menu">
-                    <li class="menuNav"><a href="materias.html">Matérias</a></li>
-                </ul>
+                <div class="btnMenu btnMenu-open">
+                    menu
+                </div>
             </nav>
         </div>
+        
         <div class="section">
             <div class="linha">
                 <section id="videosHome">
@@ -34,6 +44,7 @@
                 </section>
             </div>
         </div>
+        
         <div class="main" style="margin-top: 0;">
             <div class="linha">
                     <div class="coluna col12">
@@ -52,15 +63,15 @@
             <div class="linha">
                 <article>
                     <div class="coluna col6">
-                        <div>
+                        <div id="noticia_1">
                             <h3><a href="odldm-mulheresoprimidasouprivilegiadas.html">Mulheres: Oprimidas ou Privilegiadas?</a></h3>
                             <p>O movimento feminista afirma que as mulheres sempre foram oprimidas pelo sexo, mas o que a história...</p>
                         </div>
-                        <div>
+                        <div id="noticia_2">
                             <h3><a href="report-draAlinePugliese.html">Atrofia muscular na quarentena.</a></h3>
                             <p>A prática da atividade física, mesmo aquelas que fazíamos após muita reclamação, faz falta a todos nós. Essa rotina tem destruído cotidianos em todos...</p>
                         </div>
-                        <div>
+                        <div id="noticia_3">
                             <h3><a href="odldm-AImportanciaDoFeminismo.html">A Importância do Feminismo</a></h3>
                             <p>Bolsa estupro, exatamente. Esta proposta tem por objetivo inibir as ocorrências de aborto quando o feto for concebido mediante ato de estupro...</p>
                         </div>
@@ -81,5 +92,6 @@
                 </div>
             </div>
         </div>
+        <script src="boina.js"></script>
     </body>
 </html>

@@ -7,9 +7,16 @@
         <link rel="stylesheet" href="boina.css">
         <title> - Boina News</title>
         <link rel="icon" href="icon.png">
-        <script src="boina.js"></script>
+        <link rel="stylesheet" href="menu.css">
     </head>
     <body>
+        <div id="id"><!--IDENTIFICADOR--></div>
+        <ul class="menu">
+            <li class="menu-item-btn"><a class="btnMenu btnMenu-close">fechar</a></li>
+            <ul id="menu-content">
+                
+            </ul>
+        </ul>
         <div class="header">
             <header>
                 <a href="index.html" class="home">
@@ -19,9 +26,9 @@
                 </a>
             </header>
             <nav>
-                <ul class="menu">
-                    <li class="menuNav"><a href="materias.html">Matérias</a></li>
-                </ul>
+                <div class="btnMenu btnMenu-open">
+                    menu
+                </div>
             </nav>
         </div>
         <div class="main">
@@ -35,17 +42,14 @@
             <div class="linha">
                 <article>
                     <div class="coluna col6">
-                        <div>
-                            <h3>Titulo de noticia</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum autem nam voluptatem nesciunt fugit, culpa velit non, cumque ratione quisquam ducimus hic dicta laborum! Repudiandae a quibusdam aliquid labore esse.</p>
+                        <div id="noticia_1">
+                            
                         </div>
-                        <div>
-                            <h3>Titulo de noticia</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente repellendus, cum eveniet excepturi molestias eligendi rerum sit amet minima nisi eius consequatur velit, numquam totam beatae aliquam autem aliquid.</p>
+                        <div id="noticia_2">
+                            
                         </div>
-                        <div>
-                            <h3>Titulo de noticia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos officiis, repudiandae quod nesciunt culpa aliquid excepturi veniam, magni dicta maxime quae odit dignissimos rerum repellendus molestiae nostrum. Corporis, eius!</p>
+                        <div id="noticia_3">
+                            
                         </div>
                     </div>
                     <div class="coluna col6">
@@ -64,5 +68,6 @@
                 </div>
             </div>
         </div>
+        <script src="boina.js"></script>
     </body>
 </html>
