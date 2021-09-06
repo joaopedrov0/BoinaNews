@@ -36,9 +36,9 @@
 
     scrollbar-color: transparent;
 
-    transform: translateX(100%);
+    transform: translate(100%);
 
-    transition: transform 500ms ease;
+    transition: transform 500ms ease-out;
 
 }
 
@@ -62,11 +62,6 @@
 }
 
 .menu-item{
-    border-radius: 3px;
-
-    width: 97%;
-    height: 75px;
-    background-color: #0085f9;
 
     display: flex;
     justify-content: center;
@@ -81,24 +76,21 @@
     transition: background-color 500ms ease;
 }
 
-.menu-item:hover{
-    background-color: #0071d3;
-}
+
 
 .menu-item *{
     margin: 25px;
 }
 
 .menu-title{
-    background-color: #005ebf;
-}
+    border-radius: 0;
 
-.menu-title:hover{
+    width: 100%;
     background-color: #005ebf;
 }
 
 .menu-open{
-    transform: translateX(0);
+    transform: translate(0) rotate(0deg) scale(1);
 }
 
 .menu-item a{
@@ -106,6 +98,26 @@
     text-decoration: none;
 }
 
+.menu-new{
+    border-radius: 3px;
+
+    width: 97%;
+    height: 75px;
+    background-color: #0085f9;
+
+    margin-bottom: 3px !important;
+
+    text-align: center;
+}
+
+.menu-new:hover{
+    background-color: #0071d3;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+}
 
 @media screen and (min-width: 360px) and (max-width: 980px){
     .btnMenu-open{

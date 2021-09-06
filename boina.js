@@ -7,15 +7,15 @@ console.log(btnMenuOpen)
 
 content.innerHTML = `
 <ul>
-        <li class="menu-item"><a href="creditos.html">Créditos</a></li>
+        <a href="creditos.html"><li class="menu-item menu-new">Créditos</li></a>
         <li class="menu-item menu-title"><h3>Reportagens</h3></li>
-        <li class="menu-item"><a href="report-draBianca.html">"Uma hora de atividades físicas vale por um comprimido de antidepressivo".</a></li>
-        <li class="menu-item"><a href="report-draAlinePugliese.html">Atrofia muscular na quarentena.</a></li>
+        <a href="report-draBianca.html"><li class="menu-item menu-new">"Uma hora de atividades físicas vale por um comprimido de antidepressivo".</li></a>
+        <a href="report-draAlinePugliese.html"><li class="menu-item menu-new">Atrofia muscular na quarentena.</li></a>
         <li class="menu-item menu-title"><h3>Entretenimento</h3></li>
-        <li class="menu-item"><a href="entr-filmesSeriesNaPandemia.html">3 Séries e Filmes que você precisa assistir durante a quarentena...</a></li>
+        <a href="entr-filmesSeriesNaPandemia.html"><li class="menu-item menu-new">3 Séries e Filmes que você precisa assistir durante a quarentena...</li></a>
         <li class="menu-item menu-title"><h3>Os Dois Lados da Moeda</h3></li>
-        <li class="menu-item"><a href="odldm-AImportanciaDoFeminismo.html">A Importância do Feminismo</a></li>
-        <li class="menu-item"><a href="odldm-mulheresoprimidasouprivilegiadas.html">Mulheres: Oprimidas ou Privilegiadas?</a></li>
+        <a href="odldm-AImportanciaDoFeminismo.html"><li class="menu-item menu-new">A Importância do Feminismo</li></a>
+        <a href="odldm-mulheresoprimidasouprivilegiadas.html"><li class="menu-item menu-new">Mulheres: Oprimidas ou Privilegiadas?</li></a>
         
 </ul>
 `
@@ -32,15 +32,15 @@ btnMenuOpen.addEventListener('click', function(){
 //gerador de notícias aleatórias
 
 let noticias = [
-    `<h3><a href="entr-filmesSeriesNaPandemia.html">3 Séries e Filmes que você precisa assistir durante a quarentena...</a></h3><p>Sabemos que, durante o isolamento, um dos nossos maiores inimigos é o tédio. Por isso, nossos maiores aliados têm sido as plataformas de streaming...</p>`,
-    `<h3><a href="report-draAlinePugliese.html">As causas da atrofia muscular.</a></h3>
-    <p>A prática da atividade física, mesmo aquelas que fazíamos após muita reclamação, faz falta a todos nós. Essa rotina tem destruído cotidianos em todos...</p>`,
-    `<h3><a href="report-draBianca.html">Especialista afirma "Uma hora de atividades físicas vale por um comprimido de antidepressivo".</a></h3>
-    <p>Diante do isolamento em virtude da pandemia, as crises de transtornos de ordem psicológica apresentaram aumento significativo...</p>`,
-    `<h3><a href="odldm-AImportanciaDoFeminismo.html">A Importância do Feminismo</a></h3>
-    <p>Bolsa estupro, exatamente. Esta proposta tem por objetivo inibir as ocorrências de aborto quando o feto for concebido mediante ato de estupro...</p>`,
-    `<h3><a href="odldm-mulheresoprimidasouprivilegiadas.html">Mulheres: Oprimidas ou Privilegiadas?</a></h3>
-    <p>O movimento feminista afirma que as mulheres sempre foram oprimidas pelo sexo, mas o que a história...</p>`,
+    `<a href="entr-filmesSeriesNaPandemia.html"><h3>3 Séries e Filmes que você precisa assistir durante a quarentena...</h3><p>Sabemos que, durante o isolamento, um dos nossos maiores inimigos é o tédio. Por isso, nossos maiores aliados têm sido as plataformas de streaming...</p></a>`,
+    `<a href="report-draAlinePugliese.html"><h3>As causas da atrofia muscular.</h3>
+    <p>A prática da atividade física, mesmo aquelas que fazíamos após muita reclamação, faz falta a todos nós. Essa rotina tem destruído cotidianos em todos...</p></a>`,
+    `<a href="report-draBianca.html"><h3>Especialista afirma "Uma hora de atividades físicas vale por um comprimido de antidepressivo".</h3>
+    <p>Diante do isolamento em virtude da pandemia, as crises de transtornos de ordem psicológica apresentaram aumento significativo...</p></a>`,
+    `<a href="odldm-AImportanciaDoFeminismo.html"><h3>A Importância do Feminismo</h3>
+    <p>Bolsa estupro, exatamente. Esta proposta tem por objetivo inibir as ocorrências de aborto quando o feto for concebido mediante ato de estupro...</p></a>`,
+    `<a href="odldm-mulheresoprimidasouprivilegiadas.html"><h3>Mulheres: Oprimidas ou Privilegiadas?</h3>
+    <p>O movimento feminista afirma que as mulheres sempre foram oprimidas pelo sexo, mas o que a história...</p></a>`,
 ]
 
 /*

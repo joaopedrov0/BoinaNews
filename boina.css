@@ -197,20 +197,27 @@ article{
 }
 
 article a{
-	text-decoration: none;
-	color: black;
-}
-article a:hover{
-	text-decoration: underline;
-	opacity: 80%;
-}
 
-.article .linha article .coluna div {
-	background-color: #0060c0d5;
+	background-color: #0061c2d5;
 	padding: 15px;
 	margin: 5px;
 	border-radius: 15px;
+	display: block;
+
+	text-decoration: none;
+
+	transition: background-color 500ms ease;
 }
+article a:hover{
+	text-decoration: underline;
+	background-color: #0059b3;
+
+	text-decoration: none;
+}
+
+/*.article .linha article .coluna a {
+	
+}*/
 
 .article .linha article .coluna div h3, .article .linha article .coluna div p{
 	text-align: center;
@@ -407,7 +414,7 @@ h3{
 	}
 	body{
 		max-width: 100vw;
-		font-size: 17px;
+		font-size: 18px;
 		background-image: none;
 	}
 	/*Backgrounds mobile*/
